@@ -1,0 +1,46 @@
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #ff8c00; /* Slightly darker orange on hover */
+  }
+
+  #output {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .content {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .content.active {
+    display: block;
+  }
+
+  .content p {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,128 @@
+.latest {
+    height: auto;
+    padding: 70px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.one,
+.two,
+.three {
+    height: 350px;
+    width: 234px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.three {
+    margin: 5px;
+}
+
+.description_one,
+.description_two,
+.description_three {
+    height: 200px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    color: #d8b454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+p {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    color: #d8b454;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    color: #d8b454;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0 20px;
+}
+
+.service {
+    height: auto;
+    width: 350px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:hover {
+    color: #d8b454;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .latest {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .description_one,
+    .description_two,
+    .description_three {
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .text {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
